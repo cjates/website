@@ -454,10 +454,10 @@ h2.light, h3.light { color: var(--white); }
 }
 .honor-value {
   font-family: var(--font-head);
-  font-size: 1rem;
+  font-size: 0.88rem;
   font-weight: 700;
   color: var(--blue);
-  line-height: 1.1;
+  line-height: 1.2;
 }
 .honor-label {
   font-size: 0.65rem;
