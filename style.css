@@ -292,6 +292,27 @@ h2.light, h3.light { color: var(--white); }
 .stat-label { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.14em; color: var(--text-muted); margin-top: 0.2rem; }
 .stat-divider { width: 1px; height: 32px; background: var(--border); }
 
+.hero-skills { margin-top: 2.25rem; }
+.hero-skills-label {
+  display: block;
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 0.7rem;
+}
+.hero-skills-tags { display: flex; flex-wrap: wrap; gap: 0.45rem; }
+.hero-skills-tags span {
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.32rem 0.85rem;
+  border-radius: 100px;
+  background: rgba(27,79,168,0.07);
+  border: 1px solid rgba(27,79,168,0.2);
+  color: var(--blue);
+}
+
 .hero-scroll-hint { position: absolute; bottom: 2rem; left: 50%; transform: translateX(-50%); }
 .hero-scroll-hint span {
   display: block; width: 1px; height: 44px;
